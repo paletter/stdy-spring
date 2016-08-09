@@ -1,4 +1,4 @@
-package com.palette.study.spring.test.beans;
+package com.palette.study.spring.test.context.beans;
 
 
 public class UserServiceImpl implements UserService {

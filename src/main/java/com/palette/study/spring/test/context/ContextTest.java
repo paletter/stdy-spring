@@ -1,10 +1,10 @@
-package com.palette.study.spring.test;
+package com.palette.study.spring.test.context;
 
 
 import com.palette.study.spring.beans.BeanFactory;
 import com.palette.study.spring.context.ClassPathXmlApplicationContext;
 import com.palette.study.spring.demo.knight.role.Quest;
-import com.palette.study.spring.test.beans.UserService;
+import com.palette.study.spring.test.context.beans.UserService;
 
 public class ContextTest {
 
