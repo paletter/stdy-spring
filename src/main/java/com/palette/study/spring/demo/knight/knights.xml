@@ -8,6 +8,6 @@
 		<constructor-arg ref="quest" />
 	</bean>
 	
-	<bean id="quest" class="com.palette.study.spring.demo.knight.role.SlayDragonQuest" />
+	<bean id="quest" class="com.palette.study.spring.demo.knight.role.SlayDragonQuest"/>
 	
 </beans>

@@ -13,7 +13,10 @@ public class KnightMain {
 	public static void main(String[] args) throws IOException {
 
 		ApplicationContext context = new ClassPathXmlApplicationContext("com/palette/study/spring/demo/knight/knights.xml");
-		Knight knight = (Knight) context.getBean("knight");
-		knight.embarkOnQuest();
+		Knight knight1 = (Knight) context.getBean("knight");
+		knight1.embarkOnQuest();
+		
+		Knight knight2 = (Knight) context.getBean("knight");
+		knight2.embarkOnQuest();
 	}
 }

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+
+	<bean id="userDao" class="com.palette.study.spring.test.beans.UserDaoImpl" />
+	
+	<bean id="userService" class="com.palette.study.spring.test.beans.UserServiceImpl">
+		<property name="userDao" ref="userDao" />
+	</bean>
+	
+</beans>
